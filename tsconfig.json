@@ -18,5 +18,8 @@
   },
   "files": [
       "index.d.ts"
+  ],
+  "include": [
+    "./node_modules/@machinomy/types-readable-stream/index.d.ts"
   ]
 }
