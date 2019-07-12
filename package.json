@@ -1,0 +1,24 @@
+{
+  "name": "ts-elasticsearch-scroll-stream",
+  "version": "1.0.0",
+  "description": "TypeScript type definitions for elasticsearch-scroll-stream",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ANNotunzdY/ts-elasticsearch-scroll-stream.git"
+  },
+  "author": "2019 ANNotunzdY®",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ANNotunzdY/ts-elasticsearch-scroll-stream/issues"
+  },
+  "homepage": "https://github.com/ANNotunzdY/ts-elasticsearch-scroll-stream#readme",
+  "dependencies": {
+    "@machinomy/types-readable-stream": "git+https://github.com/machinomy/types-readable-stream.git",
+    "@types/elasticsearch": "^5.0.34",
+    "elasticsearch-scroll-stream": "^1.1.5"
+  }
+}
