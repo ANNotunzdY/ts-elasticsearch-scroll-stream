@@ -1,6 +1,6 @@
-import { Client, SearchParams, NameList } from 'elasticsearch';
-import { Readable, ReadableOptions } from 'readable-stream';
+import * as elasticsearch from 'elasticsearch';
+import * as readableStream from 'readable-stream';
 
-declare class ElasticsearchScrollStream extends Readable {
-    constructor(client: Client, query_opts: SearchParams, optional_fields: NameList, stream_opts: ReadableOptions);
+declare class ElasticsearchScrollStream extends readableStream.Readable {
+    constructor(client: elasticsearch.Client, query_opts: elasticsearch.SearchParams, optional_fields: elasticsearch.NameList, stream_opts: readableStream.ReadableOptions);
 }
